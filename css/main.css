@@ -1,0 +1,47 @@
+html {
+  line-height: 1.5;
+  box-sizing: border-box;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1rem;
+  padding: .4em .75em .5em;
+  background-color: #dcd4cd;
+  border: 3px solid #785439;
+  border-radius: 8px;
+}
+
+h2 {
+font-family: Dosis, sans-serif;
+font-size: 1.5rem;
+color: #512200;
+}
+
+dl {
+  width: 100%;
+  padding: 0;
+  margin: 0
+}
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0
+}
+dd {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0
+}
+
+
+
+.link-card {
+  background-color: #cabdb2;
+}

@@ -7,7 +7,7 @@ Kingdom: Animalia
 Phylum: Arthropoda
 Class: Insecta
 Order: Coleoptera
-Suborder: Polyphaga
+Suborder: Suborder
 Superfamily: Scarabaeoidea
 Family: Scarabidae
 
