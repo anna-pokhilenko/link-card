@@ -2,46 +2,86 @@ html {
   line-height: 1.5;
   box-sizing: border-box;
   background-color: #f0eee8;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body {
-  margin: 1rem;
-  padding: .4em .75em .5em;
-  background-color: #dcd4cd;
-  border: 3px solid #785439;
-  border-radius: 8px;
-}
-
 h2 {
-font-family: Dosis, sans-serif;
-font-size: 1.5rem;
-color: #512200;
+  margin: 0;
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  color: #512200;
+  font-weight: bold;
 }
 
 dl {
-  width: 100%;
-  padding: 0;
-  margin: 0
+  font-size: .875rem;
+  color: #512200;
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1.125rem;
 }
+
+dl dd {
+  font-style: italic;
+}
+
 dt {
+  display: inline-block;
   float: left;
-  width: 50%;
-  padding: 0;
-  margin: 0
 }
+
 dd {
-  float: left;
-  width: 50%;
-  padding: 0;
-  margin: 0
+  display: block;
+  text-align: center;
 }
 
+p {
+  font-size: 1rem;
+  color: #512200;
+}
 
+div {
+  text-align: center;
+}
+
+.btn {
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+  background-color: #785439;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #785439;
+  border-radius: 8px;
+  padding: .4em .75em .5em;
+}
 
 .link-card {
+  padding: 1rem 1rem 2rem;
+  display: block;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+}
+
+.link-card:hover {
   background-color: #cabdb2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+}
+
+.link-card h2 {
+  display: inline-block;
 }
